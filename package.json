@@ -9,9 +9,9 @@
     "preversion": "npm test",
     "version": "npm run build && git add -A ",
     "postversion": "git push origin master && git push origin master --tags",
-    "release-patch": "git checkout master; npm run build && npm version patch && npm run build;",
-    "release-minor": "git checkout master; npm run build && npm version minor && npm run build;",
-    "release-major": "git checkout master; npm run build && npm version major && npm run build;"
+    "release-patch": "git checkout master; npm version patch",
+    "release-minor": "git checkout master; npm version minor",
+    "release-major": "git checkout master; npm version major"
   },
   "keywords": [],
   "author": "",
