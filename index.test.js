@@ -13,7 +13,7 @@ test('doStuff', function (t) {
 test('doStuff(with params)', function (t) {
   t.plan(1)
 
-  const expected = 'got some param 42'
+  const expected = 'got some param 51'
   const observed = doStuff(51)
   t.equal(expected, observed)
 })
